@@ -1,8 +1,8 @@
 # Ruby Style Guide
 
-This is Airbnb's Ruby Style Guide.
+This is SomeOne's Ruby Style Guide.
 
-It was inspired by [Github's guide][github-ruby] and [Bozhidar Batsov's guide][bbatsov-ruby].
+It was inspired by [Airbnb's guide][airbnb-ruby], [Github's guide][github-ruby] and [Bozhidar Batsov's guide][bbatsov-ruby].
 
 Airbnb also maintains a [JavaScript Style Guide][airbnb-javascript].
 
@@ -134,8 +134,8 @@ Airbnb also maintains a [JavaScript Style Guide][airbnb-javascript].
 ## Line Length
 
 Keep each line of code to a readable length. Unless you have a reason
-to, keep lines to fewer than 100 characters. Keeping code visually
-grouped together (as a 100-character line limit enforces) makes it
+to, keep lines to fewer than 80 characters. Keeping code visually
+grouped together (as a 80-character line limit enforces) makes it
 easier to understand. For example, you don't have to scroll back and
 forth on one line to see what's going on -- you can view it all
 together.
@@ -1083,7 +1083,7 @@ in inheritance.
     render :text => 'Howdy' and return
 
     # good
-    render :text => 'Howdy'
+    render text: 'Howdy'
     return
 
     # still bad
@@ -1091,7 +1091,7 @@ in inheritance.
 
     # good
     if foo.present?
-      render :text => 'Howdy'
+      render text: 'Howdy'
       return
     end
     ```
