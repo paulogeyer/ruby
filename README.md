@@ -141,7 +141,7 @@ forth on one line to see what's going on -- you can view it all
 together.
 
 Here are examples from our codebase showing several techniques for
-breaking complex statements into multiple lines that are all < 100
+breaking complex statements into multiple lines that are all < 80
 characters. Notice techniques like:
 
 * liberal use of linebreaks inside unclosed `(` `{` `[`
