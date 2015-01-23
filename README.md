@@ -1,6 +1,6 @@
 # Ruby Style Guide
 
-This is SomeOne's Ruby Style Guide.
+This is SomOne's Ruby Style Guide.
 
 It was inspired by [Airbnb's guide][airbnb-ruby], [Github's guide][github-ruby] and [Bozhidar Batsov's guide][bbatsov-ruby].
 
